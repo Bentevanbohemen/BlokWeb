@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Bente van Bohemen (vervangen door jouw naam)
 
   #### Je startniveau:
-  blauw (kies uit zwart, rood óf blauw)
+  Blauw (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  surface plane (kies uit responsive óf surface plane)
+  Responsive (kies uit responsive óf surface plane)
  
 </details>
 
@@ -41,11 +41,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="images/1.png" width="375px" alt="home pagina website Toastable">
+  <img src="readme-images/1.png" width="375px" alt="home pagina website Toastable">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="images/2.png" width="375px" alt="menu pagina website Toastable">
+  <img src="readme-images/2.png" width="375px" alt="menu pagina website Toastable">
  
 </details>
 
@@ -58,6 +58,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+    - Veel fouten in de html code. 
+    - Bij mobiel formaat van content uit verhouding.
+    - Alleen in de footer staat een li voor de rest is alles div of section.
+    - Geen alt teksten, aleen alt srcset met slechte benaming.
+    - De video begint automatisch en kan je niet stop zetten.
+    - Kleuren van navigatie niet genoeg contrast.
 
 </details>
 
@@ -69,13 +75,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -91,24 +94,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Ging goed: Ik heb vanaf het begin goed mee gedaan in de les en heb alle oefeningen gemaakt. Hierdoor kan ik nu goed bij blijven. Ik heb wel geleerd van vorig jaar dat voor mij dat belangrijk is. Hierdoor heb ik van 1 pagina alle html af en kan ik vandaag verder aan de 2e pagina. Door de oefeningen denk ik dat het opzetten van de css goed moet lukken.
+
+  Dit was lastig: Ik vond in de eerste week de toegankelijkheid met de screenreader wel lastig. Ik kreeg niet onder de knie hoe je dit nou moest gebruiken. Ook vond ik grid op het begin wel even lastig maar na het doen van de oefeningen ging dat beter.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Bente            | Jamie              | Tim          | Sanne       | Mearen       |
+  | ---              | ---                | ---          | ---         | ---          |
+  | Toegankelijkheid | HTML checken       | HTML         |             | HTML checken |
+  | Quote            |                    | css          |             |              |
+  | HTML checken     |                    |              |             |              |
+  | Formaat foto's   |                    |              |             |              |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: 
+  - punt 2:
+  - punt 3:
+  - punt 4:
 
 </details>
 
