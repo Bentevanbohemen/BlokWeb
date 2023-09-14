@@ -58,7 +58,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-    - Veel fouten in de html code. 
+    - Veel fouten in de html code.
     - Bij mobiel formaat van content uit verhouding.
     - Alleen in de footer staat een li voor de rest is alles div of section.
     - Geen alt teksten, aleen alt srcset met slechte benaming.
