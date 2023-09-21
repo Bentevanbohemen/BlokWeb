@@ -111,10 +111,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1: 
-  - punt 2:
-  - punt 3:
-  - punt 4:
+  - punt 1: Zorg voor goede heading levels
+  - punt 2: Alle linkjes doorverwijzen naar andere vormgegeven pagina.
+  - punt 3: Nav in de footer
+  - punt 4: Foto galerei als je klinkt vergroot de foto
 
 </details>
 
@@ -128,17 +128,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb nu mijn grid op de eerste pagina toegevoegd en ik moet zetten dat het lastiger is dan ik dacht. Het lukt daarbij niet goed om het in het midden op het achtergrond item te zetten. Ik ga hier in het voortgansgesprek over vragen. 
+
+  Het gaat we goed met flexbox ik denk dat ik dat nu wel redelijk onder de knie heb. Ik hoop dat het ook lukt bij mijn 2e pagina. Ik vind bij flexbox alleen het uitklap menu lastig.
+
+  Ik ga er dit weekend weer verder aan zodat als ik vragen heb die dinsdag in de les kan na vragen.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Bente            | Jamie              | Tim            | Stella         | Mearen          |
+  | ---              | ---                | ---            | ---            | ---             |
+  | Toegankelijkheid | Hamburger menu     | HTML           | Hamburger menu | HTML checken    |
+  | Responsive       |                    | Hamburger menu |                | Gedownlaod font |
+  | HTML checken     |                    |                |                |                 |
+  | Grid voor foto's |                    |                |                |                 |
+  | Uitklap menu     |                    |                |                |                 |
 
 
   ### Verslag van meeting

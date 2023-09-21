@@ -1,3 +1,6 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&display=swap');
+
+
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -15,8 +18,14 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:#ffffff;
+	--color-text-brood:#000000;
+	--color-text-h2:#C85E36;
+
+	--color-background:#ffffff;
+	--color-primary:#E4CBBA;
+	--color-secundary:#C85E36;
+	--color-accent:#D89646;
 }
 
 
@@ -27,5 +36,336 @@
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
 
+body {
+    margin: 0;
+	font-family: 'Lato', sans-serif ;
+}
+
+
+/* HEADER */
+/****************/
+header nav {
+	background-color: var(--color-primary);
+	display: flex;
+}
+
+header nav h1 {
+	display: flex;
+	margin: 1em;
+}
+
+header nav img {
+	width: 60%;
+}
+
+header nav li {
+	display: flex;
+}
+
+header nav li a {
+	display: flex;
+	color: var(--color-text-brood); 
+    text-decoration: none;
+
+    font-weight: 400;
+    font-size: 1em ;
+    letter-spacing: 4px;
+	line-height: 1.6em;
+	cursor: pointer; 
+}
+
+/* section:first-of-type a:hover {
+	background: var(--color-primary);
+	color: var(--color-secundary);
+    transition: background 50ms ease ;
+}
+
+section:first-of-type a:hover:not(.actief) {
+    background-color: rgb(165, 207, 232);
+} */
+
+
+
+
+/* VIDEO BLOK */
+/****************/
+
+
+section:first-of-type video {
+	width: 100%;
+	height: 100%;
+	z-index: -1; 
+}
+
+section:first-of-type {
+	height: 35em; 
+	position: relative;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+
+}
+
+
+section:first-of-type h2 {
+	color: var(--color-text);
+	position: absolute; 
+	display: flex; 
+	z-index: 1;
+	align-items: center;
+	justify-content: center; 
+	flex-direction: column; 
+
+
+    font-weight: 600;
+    font-size: 2em ;
+	line-height: 1.2em;
+	padding-bottom: 5em;
+}
+
+section:first-of-type a {
+	position: absolute; 
+	display: flex; 
+    z-index: 1; 
+	align-items: center;
+	justify-content: center; 
+	flex-direction: column; 
+
+
+	/* Stijlen om eruit te zien als een knop */
+	color: var(--color-text);
+	text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em ;
+	text-align: center;
+	letter-spacing: .3em;
+	text-decoration: none;
+	
+   
+	background-color: var(--color-secundary);
+    padding: 25px 40px;
+    text-decoration: none;
+    border-radius: 0.3em ;
+	/* border: 1px solid var(--color-primary); */
+    
+    height: 1em;
+	cursor: pointer; 	
+}
+
+
+section:first-of-type a:hover {
+	background: var(--color-primary);
+	color: var(--color-secundary);
+    transition: background 50ms ease ;
+}
+
+
+
+
+/* ALLEEN DE BESTE TOSTI BLOK */
+/****************/
+
+section:nth-of-type(2) {
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
+}
+
+section:nth-of-type(2) article {
+	margin-bottom: 20px;
+	color: var(--color-text-brood);
+}
+
+section:nth-of-type(2) h2 {
+	color: var(--color-text-h2);
+    font-weight: 600;
+    font-size: 2em ;
+	text-align: center;
+
+	padding-top: 1.2em;
+}
+
+section:nth-of-type(2) h3 {
+    font-weight: 600;
+    font-size: 1.5em ;
+	text-align: center;
+	margin-bottom: -.3em;
+
+}
+
+section:nth-of-type(2) p {
+    font-weight: 400;
+    font-size: 1em ;
+	text-align: center;
+}
+
+section:nth-of-type(2) a {
+
+	/* Stijlen om eruit te zien als een knop */
+	color: var(--color-text);
+	text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1em ;
+	text-align: center;
+	letter-spacing: .3em;
+	text-decoration: none;
+   
+	background-color: var(--color-secundary);
+	padding: 13px 30px;
+    text-decoration: none;
+    border-radius: 0.3em ;
+	/* border: 1px solid var(--color-primary); */
+    
+	cursor: pointer; 	
+}
+
+section:nth-of-type(2) a:hover {
+	background: var(--color-text-brood);
+	color: var(--color-primary);
+    transition: background 50ms ease ;
+}
+
+
+
+/* ONZE PRODUCTEN BLOK */
+/****************/
+
+section:nth-of-type(3) {
+	margin-bottom: 7em;
+}
+
+section:nth-of-type(3) .galerijEen {
+	margin: 1em;
+	
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 1em;
+}
+
+section:nth-of-type(3) .galerijTwee {
+	margin: 1em;
+	
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 1em;
+}
+
+section:nth-of-type(3) h2 {
+	color: var(--color-text-h2);
+    font-weight: 600;
+    font-size: 2em ;
+	text-align: center;
+	padding-top: 3em;
+}
+
+section:nth-of-type(3) img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	transition: transform 0.3s ease; /* Voeg een soepele overgang toe */
+}
+
+section:nth-of-type(3) img:hover {
+	transform: scale(0.9);
+}
+
+
+
+.galerijEen img:nth-of-type(1)  {
+    grid-column: span 1; 
+    grid-row: span 2; 
+}
+
+.galerijEen img:nth-of-type(2), .galerijEen img:nth-of-type(3) {
+    grid-column: span 1; 
+    grid-row: span 1; 
+}
+
+.galerijTwee img:nth-of-type(1), .galerijTwee img:nth-of-type(2)  {
+    grid-column: span 1; 
+    grid-row: span 1; 
+}
+
+.galerijTwee img:nth-of-type(3) {
+    grid-column: span 1; 
+    grid-row: span 2; 
+}
+
+
+
+@media (max-width: 768px) {
+    section:nth-of-type(3) .galerijEen, section:nth-of-type(3) .galerijTwee {
+        grid-template-columns: 1fr; 
+		margin: 1em;
+    }
+}
+
+
+/* BANNER BLOK */
+/****************/
+
+aside img {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+aside article {
+    position: relative; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: left; 
+    margin-left: 2em;
+}
+
+
+aside h2 {
+    color: var(--color-text);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2em ;
+    line-height: 1.7em;
+    padding-bottom: 6em;
+    text-align: left;
+    border: 5px solid var(--color-background);
+}
+
+aside a {
+    position: absolute; 
+    display: flex; 
+    z-index: 1; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+
+
+    /* Stijlen om eruit te zien als een knop */
+    color: var(--color-text);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em ;
+    text-align: center;
+    letter-spacing: .3em;
+    text-decoration: none;
+    
+   
+    background-color: var(--color-secundary);
+    padding: 25px 40px;
+    text-decoration: none;
+    border-radius: 0.3em ;
+    /* border: 1px solid var(--color-primary); */
+    
+    height: 1em;
+    cursor: pointer;    
+}
+
+
+aside a:hover {
+    background: var(--color-primary);
+    color: var(--color-secundary);
+    transition: background 50ms ease ;
+}
