@@ -22,7 +22,7 @@
 	--color-text-brood:#000000;
 	--color-text-h2:#C85E36;
 
-	--color-background:#ffffff;
+	--color-background:#f5f5f5;
 	--color-primary:#E4CBBA;
 	--color-secundary:#C85E36;
 	--color-accent:#D89646;
@@ -48,6 +48,18 @@ body {
 header nav {
 	background-color: var(--color-primary);
 	display: flex;
+	position: relative;
+}
+
+header ul {
+	background-color: var(--color-primary);
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+header ul.open {
+	display: block;
 }
 
 header nav h1 {
@@ -92,24 +104,24 @@ section:first-of-type a:hover:not(.actief) {
 /****************/
 
 
-section:first-of-type video {
+main section:first-of-type video {
 	width: 100%;
 	height: 100%;
 	z-index: -1; 
+	object-fit: cover;
 }
 
-section:first-of-type {
+main section:first-of-type {
 	height: 35em; 
 	position: relative;
     display: flex; 
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
-
 }
 
 
-section:first-of-type h2 {
+main section:first-of-type h2 {
 	color: var(--color-text);
 	position: absolute; 
 	display: flex; 
@@ -125,7 +137,7 @@ section:first-of-type h2 {
 	padding-bottom: 5em;
 }
 
-section:first-of-type a {
+main section:first-of-type a {
 	position: absolute; 
 	display: flex; 
     z-index: 1; 
@@ -155,7 +167,7 @@ section:first-of-type a {
 }
 
 
-section:first-of-type a:hover {
+main section:first-of-type a:hover {
 	background: var(--color-primary);
 	color: var(--color-secundary);
     transition: background 50ms ease ;
@@ -263,8 +275,9 @@ section:nth-of-type(3) h2 {
 section:nth-of-type(3) img {
 	width: 100%;
 	max-width: 100%;
-	height: auto;
+	height: 100%;
 	transition: transform 0.3s ease; /* Voeg een soepele overgang toe */
+	object-fit: cover;
 }
 
 section:nth-of-type(3) img:hover {
@@ -283,9 +296,14 @@ section:nth-of-type(3) img:hover {
     grid-row: span 1; 
 }
 
-.galerijTwee img:nth-of-type(1), .galerijTwee img:nth-of-type(2)  {
+.galerijTwee img:nth-of-type(1) {
     grid-column: span 1; 
     grid-row: span 1; 
+}
+
+.galerijTwee img:nth-of-type(2)  {
+    grid-column: 1; 
+    grid-row:  2; 
 }
 
 .galerijTwee img:nth-of-type(3) {
@@ -306,14 +324,23 @@ section:nth-of-type(3) img:hover {
 /* BANNER BLOK */
 /****************/
 
-aside img {
-    width: 100%;
-    height: auto;
-    z-index: -1;
-    filter: blur(2px);
+aside:nth-of-type(1) {
+	display: flex;
+	flex-direction: column;	
+	height: 25em; 
+	position: relative;
 }
 
-aside article {
+aside:nth-of-type(1) img {
+  	width: 100%;
+	height: 100%;
+    z-index: -1;
+    filter: blur(2px);
+	position: absolute;
+	object-fit: cover;
+}
+
+aside:nth-of-type(1) article {
     position: relative; 
     display: flex; 
     flex-direction: column;
@@ -323,25 +350,29 @@ aside article {
 }
 
 
-aside h2 {
+aside:nth-of-type(1) h2 {
     color: var(--color-text);
     font-weight: 600;
     text-transform: uppercase;
     font-size: 2em ;
-    line-height: 1.7em;
     padding-bottom: 6em;
-    text-align: left;
-    border: 5px solid var(--color-background);
+	
+	display: flex;
+	flex-direction: column;	
+	align-items: start;
 }
 
-aside a {
+aside:nth-of-type(1) span {
+    border: 5px solid var(--color-background);
+	padding: .1em;
+	margin: .1em;
+}
+
+aside:nth-of-type(1) a {
     position: absolute; 
     display: flex; 
     z-index: 1; 
     align-items: center; 
-    justify-content: center;
-    flex-direction: column; 
-
 
     /* Stijlen om eruit te zien als een knop */
     color: var(--color-text);
@@ -364,8 +395,141 @@ aside a {
 }
 
 
-aside a:hover {
+aside:nth-of-type(1) a:hover {
     background: var(--color-primary);
     color: var(--color-secundary);
     transition: background 50ms ease ;
 }
+
+
+/* REVIEW BLOK */
+/****************/
+
+section:nth-of-type(4) {
+	padding-bottom: 2em;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+section:nth-of-type(4) h2 {
+	color: var(--color-text-h2);
+    font-weight: 600;
+    font-size: 2em ;
+}
+
+blockquote {
+	display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+}
+
+blockquote article {
+	background-color: var(--color-background);
+    padding: 3em;
+    border-radius: 1em;
+    text-align: left;
+	width: 25em;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+section:nth-of-type(4) article p {
+	margin-bottom: 2em;
+}
+
+section:nth-of-type(4) article strong {
+	font-weight: 700;
+    font-size: 1.2em ;
+}
+
+section:nth-of-type(4) div {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+} 
+
+section:nth-of-type(4) img {
+	width: 40%;
+}
+
+section:nth-of-type(4) div img {
+	border-radius: 50%;
+	width: 3.5em;
+	height: 3.5em; 
+	object-fit: cover;
+}
+
+section:nth-of-type(4) div p {
+	color: var(--color-text-brood);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em ;
+    letter-spacing: .35em;
+	margin-left: 1em;
+	opacity: 60%;
+}
+
+section:nth-of-type(4) a {
+
+	/* Stijlen om eruit te zien als een knop */
+	color: var(--color-text);
+	text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1em ;
+	letter-spacing: .3em;
+	text-decoration: none;
+   
+	background-color: var(--color-secundary);
+	padding: 13px 30px;
+    text-decoration: none;
+    border-radius: 0.3em ;
+	/* border: 1px solid var(--color-primary); */
+    
+	cursor: pointer; 	
+}
+
+section:nth-of-type(4) a:hover {
+	background: var(--color-text-brood);
+	color: var(--color-primary);
+    transition: background 50ms ease ;
+}
+
+@media screen and (max-width: 768px) {
+    blockquote {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    blockquote {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    blockquote {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* FOOTER BLOK */
+/****************/
+
+footer {
+	background-color: var(--color-text-h2);
+	display: flex;
+	flex-direction: column;
+}
+
+footer section {
+	display: flex;
+	flex-direction: column;
+}
+
+footer section a img {
+	width: 2em;
+	height: 2em;
+}
+
