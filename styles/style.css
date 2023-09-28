@@ -68,7 +68,7 @@ header nav h1 {
 }
 
 header nav img {
-	width: 60%;
+	width: 100%;
 }
 
 header nav li {
@@ -118,8 +118,8 @@ main section:first-of-type {
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
+	margin-bottom: 5em;
 }
-
 
 main section:first-of-type h2 {
 	color: var(--color-text);
@@ -129,7 +129,6 @@ main section:first-of-type h2 {
 	align-items: center;
 	justify-content: center; 
 	flex-direction: column; 
-
 
     font-weight: 600;
     font-size: 2em ;
@@ -143,8 +142,6 @@ main section:first-of-type a {
     z-index: 1; 
 	align-items: center;
 	justify-content: center; 
-	flex-direction: column; 
-
 
 	/* Stijlen om eruit te zien als een knop */
 	color: var(--color-text);
@@ -154,18 +151,15 @@ main section:first-of-type a {
 	text-align: center;
 	letter-spacing: .3em;
 	text-decoration: none;
-	
    
 	background-color: var(--color-secundary);
     padding: 25px 40px;
     text-decoration: none;
     border-radius: 0.3em ;
-	/* border: 1px solid var(--color-primary); */
     
     height: 1em;
-	cursor: pointer; 	
+	cursor: pointer;
 }
-
 
 main section:first-of-type a:hover {
 	background: var(--color-primary);
@@ -186,7 +180,6 @@ section:nth-of-type(2) {
 }
 
 section:nth-of-type(2) article {
-	margin-bottom: 20px;
 	color: var(--color-text-brood);
 }
 
@@ -194,9 +187,6 @@ section:nth-of-type(2) h2 {
 	color: var(--color-text-h2);
     font-weight: 600;
     font-size: 2em ;
-	text-align: center;
-
-	padding-top: 1.2em;
 }
 
 section:nth-of-type(2) h3 {
@@ -228,9 +218,8 @@ section:nth-of-type(2) a {
 	padding: 13px 30px;
     text-decoration: none;
     border-radius: 0.3em ;
-	/* border: 1px solid var(--color-primary); */
-    
-	cursor: pointer; 	
+	cursor: pointer;
+	margin-top: 2em;
 }
 
 section:nth-of-type(2) a:hover {
@@ -238,6 +227,8 @@ section:nth-of-type(2) a:hover {
 	color: var(--color-primary);
     transition: background 50ms ease ;
 }
+
+
 
 
 
@@ -250,7 +241,6 @@ section:nth-of-type(3) {
 
 section:nth-of-type(3) .galerijEen {
 	margin: 1em;
-	
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	gap: 1em;
@@ -258,7 +248,6 @@ section:nth-of-type(3) .galerijEen {
 
 section:nth-of-type(3) .galerijTwee {
 	margin: 1em;
-	
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	gap: 1em;
@@ -283,7 +272,6 @@ section:nth-of-type(3) img {
 section:nth-of-type(3) img:hover {
 	transform: scale(0.9);
 }
-
 
 
 .galerijEen img:nth-of-type(1)  {
@@ -311,8 +299,6 @@ section:nth-of-type(3) img:hover {
     grid-row: span 2; 
 }
 
-
-
 @media (max-width: 768px) {
     section:nth-of-type(3) .galerijEen, section:nth-of-type(3) .galerijTwee {
         grid-template-columns: 1fr; 
@@ -329,6 +315,7 @@ aside:nth-of-type(1) {
 	flex-direction: column;	
 	height: 25em; 
 	position: relative;
+	margin-bottom: 5em;
 }
 
 aside:nth-of-type(1) img {
@@ -348,7 +335,6 @@ aside:nth-of-type(1) article {
     align-items: left; 
     margin-left: 2em;
 }
-
 
 aside:nth-of-type(1) h2 {
     color: var(--color-text);
@@ -383,17 +369,14 @@ aside:nth-of-type(1) a {
     letter-spacing: .3em;
     text-decoration: none;
     
-   
     background-color: var(--color-secundary);
     padding: 25px 40px;
     text-decoration: none;
     border-radius: 0.3em ;
-    /* border: 1px solid var(--color-primary); */
     
     height: 1em;
     cursor: pointer;    
 }
-
 
 aside:nth-of-type(1) a:hover {
     background: var(--color-primary);
@@ -410,6 +393,7 @@ section:nth-of-type(4) {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 5em;
 }
 
 section:nth-of-type(4) h2 {
@@ -431,7 +415,6 @@ blockquote article {
     text-align: left;
 	width: 25em;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-
 }
 
 section:nth-of-type(4) article p {
@@ -471,7 +454,6 @@ section:nth-of-type(4) div p {
 }
 
 section:nth-of-type(4) a {
-
 	/* Stijlen om eruit te zien als een knop */
 	color: var(--color-text);
 	text-transform: uppercase;
@@ -484,8 +466,7 @@ section:nth-of-type(4) a {
 	padding: 13px 30px;
     text-decoration: none;
     border-radius: 0.3em ;
-	/* border: 1px solid var(--color-primary); */
-    
+	margin-top: 2em;    
 	cursor: pointer; 	
 }
 
@@ -520,16 +501,66 @@ section:nth-of-type(4) a:hover {
 footer {
 	background-color: var(--color-text-h2);
 	display: flex;
-	flex-direction: column;
+    justify-content: center; 
+	border-top: 1px solid var(--color-text-brood);
+
 }
 
-footer section {
+footer > section {
 	display: flex;
 	flex-direction: column;
+	margin: 2em;
+	align-items: center;
 }
 
-footer section a img {
+.footerlogo {
+	width: 11em;
+	border-bottom: 1px solid var(--color-text);
+	padding-bottom: 1em;
+	cursor: pointer; 
+}
+
+footer ul {
+	display: flex;
+	list-style: none;
+
+}
+
+footer ul li {
+    margin-right: 2em; /* Ruimte tussen de lijstitems */
+}
+
+footer ul li a img{
 	width: 2em;
-	height: 2em;
 }
 
+
+
+/* Mediaquery voor grotere schermen */
+@media screen and (min-width: 768px) {
+    footer > section {
+        flex-direction: row; /* Verander de richting naar rij voor grotere schermen */
+        justify-content: center; /* Horizontaal centreren van items */
+        align-items: flex-start; /* Bovenkant uitlijnen van items */
+    }
+
+    .footerlogo {
+        width: 15em; /* Pas de breedte aan voor grotere schermen */
+		border-right: 1px solid var(--color-text); /* Verander border-bottom naar border-right */
+        padding-right: 1em; /* Voeg rechter padding toe voor scheiding */
+        margin-right: 2em;
+		border-bottom: none;
+    }
+
+    footer ul li {
+        margin-right: 3em; /* Ruimte tussen de lijstitems vergroten voor grotere schermen */
+    }
+
+    footer ul li:last-child {
+        margin-right: 0; /* Verwijder de marge van het laatste lijstitem */
+    }
+
+    footer ul li a img {
+        width: 3em; /* Pas de breedte aan voor grotere schermen */
+    }
+}

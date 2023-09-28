@@ -150,10 +150,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - punt 1: Hamburger menu is uitgelegd en laten zien hoe het werkt
+  - punt 2: Flexbox is toegapst op een paar plekken van mijn webiste
+  - punt 3: Ik heb vragen gesteld op ik met grid mijn website responsive kan maken
+  - punt 4: Ik heb geleerd over object fit: cover, dit had ik nodig bij mijn foto collage.
+
 
 </details>
 
@@ -168,6 +169,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - punt 1: Validate gaf 6 fouten eerst 66 fouten, ging over articles die geen heading level hadden. Rest heb ik aangepast.
+  - punt 2: Focus state moet ik nog aanpassen aan de website.
+  - punt 3: Formaat van content was eerst uit verhouding, dit heb ik zelf veranderd.
+  - punt 4: Eerst werden er geen ul,li enz gebruikt. Dit heb ik wel in mijn website.
+  - punt 5: Ik heb aan alle elementen een alt text toegevoegd.
+  - punt 6: Video begint niet meer automatisch, je kan hem zelf starten en stoppen als je wil.
+  - punt 7: A elementen gebruikt voor links in plaats van buttons.
+  - punt 8: Dark en light mode en high-contrast mode niet ik nog toevoegen.
+  - punt 9: ::selection colors toegevoegd.
+
 
 </details>
 
@@ -183,15 +194,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Ik ben verder gegaan met mijn eerste pagina, ik heb deze nu bijna af. Het verder werken en het elementen aanroepen lukte mij best goed. Soms had ik nog war moeite met flexbox en daarmee elementen plaatsen. Ik heb wel door mijn docent geleerd dat als ik vis enspecteren naar mijn website kijk ik fouten sneller kan ondekken. Ik moet mijn hamburger menu alleen nog wel maken en daar zit ik tegen op. Ik merk datik dat toch best lastig vind. Toch ga ik hier morgen mee beginnen en kan ik hulp vragen aan mijn medestudenten als het niet lukt.
+
+  Ik krijg steeds meer plezier erin als het lukt. Ik hoop morgen mijn 2e pagina af te maken. Ik heb al een lijst gemaakt van dingen die in tot nu toe nog moet doen en ga dit afmaken als ik de 2e pagina af heb. Ik heb vertrouwen erin dat het gaat lukken.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Bente            | Jamie              | Tim            | Sara           | Mearen          |
+  | ---              | ---                | ---            | ---            | ---             |
+  | Toegankelijkheid | Hamburger menu     | HTML           | Hamburger menu | HTML checken    |
+  | Responsive       |                    | Hamburger menu |                | Gedownlaod font |
+  | HTML checken     |                    |                |                |                 |
+  | Footer           |                    |                |                |                 |
+  | Sreenreader      |                    |                |                |                 |
 
 
   ### Verslag van meeting
@@ -242,7 +258,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. https://www.flaticon.com
   2. bron 2
   3. ...
 
