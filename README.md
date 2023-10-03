@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Bente van Bohemen (vervangen door jouw naam)
+  Bente van Bohemen 
 
   #### Je startniveau:
-  Blauw (kies uit zwart, rood óf blauw)
+  Blauw,  en als het lukt rood
 
   #### Je focus:
-  Responsive (kies uit responsive óf surface plane)
+  Responsive 
  
 </details>
 
@@ -37,14 +37,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   https://toastable.nl
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Home pagina  
   <img src="readme-images/1.png" width="375px" alt="home pagina website Toastable">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Menu pagina  
   <img src="readme-images/2.png" width="375px" alt="menu pagina website Toastable">
  
 </details>
@@ -78,7 +78,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  
 
 </details>
 
@@ -213,10 +213,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - We hebben het over formulieren gehad, maar had ik niet veel aan want ik heb geen formulier op mijn website.
+  - Ik vragen kunnen stellen over hoe ik het best mijn footer op kan roepen.
+  - We hebben het gehad over dark/light mode, dat je het dan het beste een andere achtergrond kleur moet geven en dan kleuren om kan draaien voor het hoogste contrast.
+  - Ik heb voor de rest vooral naar de vragen van de andere geluisterd.
 
 </details>
 
@@ -230,19 +230,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/nieuw1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/nieuw2.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/nieuw3.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/nieuw4.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/nieuw5.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/nieuw6.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb geleerd om met een grid een responsive design te maken. Ik vond dit super leuk om te leren, omdat ik dit al een lange tijd wilde kunnen. Ik dacht dat dit heeeel lastig zou zijn maar uiteindelijk viel dit reuze mee. Hierdoor kon ik de vormgeving van me site veel beter maken. Samen met flexbox heb ik hiermee bijna heel me site gemaakt.
+  <img src="readme-images/responsive1.png" width="375px" alt="top">
+  <img src="readme-images/responsive2.png" width="375px" alt="top">
+  <img src="readme-images/responsive3.png" width="375px" alt="top">
 
+  Iets wat ik zeker ook heb geleerd is om door middel nth-of-type je veel makkelijker dingen kun selecteren. Hierdoor hoefde ik ook bijna geen classes en divs te gebruiken. Soms moest ik goed zoeken of ik wel de juiste benaming had en hoe ik de juiste benaming dan kon vinden. Maar met inspecteren lukte dit al een stuk beter en begreep ik mijn eigen code soms ook beter.
+  <img src="readme-images/code.png" width="375px" alt="top">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het hamburgermenu die responsive moest zijn vond ik toch wel echt het lastigste. Ondanks dat ik hier veel oefeningen van heb gedaan duurde het super lang voordat ik het begreep. Daardoor ging ik het ook zeker uitstellen en dat hielp natuurlijk ook niet. Uiteindelijk na veel onderzoek is het met toch gelukt. Ik denk dat het zeker op nog veel meer andere (betere) manieren kan maar toch ben ik best trots dat het gelukt is. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/menu1.png" width="375px" alt="bummer">
+  <img src="readme-images/menu2.png" width="375px" alt="bummer">
+  <img src="readme-images/menu3.png" width="375px" alt="bummer">
 </details>
 
 
@@ -256,10 +268,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
   Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
 
-  1. https://www.flaticon.com
-  2. bron 2
-  3. ...
+  1.  https://www.flaticon.com (meerdere icons van gedownload)
+  2.  https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
+  3.  https://www.scaler.com/topics/image-button-in-html/
+  4.  https://www.w3schools.com/css/css_grid_container.asp
+  5.  https://www.w3schools.com/css/css_positioning.asp
+  6.  https://dlo.mijnhva.nl/d2l/le/content/536487/Home
+  7.  https://dlo.mijnhva.nl/content/enforced/536487-FDMCI-2000FED121-DMCI-CMD-2324/FED%2023-24%20-%20Blok%201%20-%20Oefening%20states.pdf
+  8.  https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+  9.  https://brittons.nl/cake-plaatgebak
+  10. https://toastable.nl/
+  11. https://dlo.mijnhva.nl/content/enforced/536487-FDMCI-2000FED121-DMCI-CMD-2324/FED%2023-24%20-%20Blok%201%20-%20Light-Dark%20recap.pdf
+  12. https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+  13. https://codepen.io/mutedblues/pen/MmPNPG?editors=1100
+  14. https://codepen.io/shooft/pen/jOzQppJ
 
 </details>
